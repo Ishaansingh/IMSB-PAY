@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: rgb(241, 239, 239);
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #ee940d;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Simulate a smartphone / tablet look -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">IMSB Bank/Live India
+      Save INDIA
+  </a>
+  <div id="myLinks">
+    <a href="#news">News</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
+<H1 style="color: black;">Hii,Navaneeta welcome to IMSB</H1>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color: black;">pay now and receive cashback</h1>
+<form action="/action_page.php">
+  <label for="fname" style="color: black;">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="First name"><br>
+  <label for="lname"  style="color: black;">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Last name"><br><br>
+  <label for="lname"  style="color: black;">Mobile number</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Pay">
+</form> 
+
+
+<H2  style="color: black;">Wallet amount
+</H2>
+<h3  style="color: black;"> ₹ 300</h3>
+<h1  style="color: black;">receive money your Qr code</h1>
+<img src="qr.png" alt="">
+<button>Order now</button>
+
+</body>
+</html>
